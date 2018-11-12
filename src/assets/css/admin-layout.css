@@ -14203,4 +14203,18 @@ ul.jqtree-tree ul.jqtree_common {
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
   }
+.input-OS{
+    border: none;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important; 
+    background-color: rgba(250,250,250,0.1);
+    border-radius: 2px;
+    padding: 7px;
+    width: 210px;
+    color: white
+}
 
+.input-OS::-webkit-input-placeholder{
+    color: white
+}
