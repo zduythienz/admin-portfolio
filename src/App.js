@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Routes from "./routes";
 import { BrowserRouter } from "react-router-dom";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
-import "./assets/css/layout.css"
+import "./assets/css/layout.css";
+import "./assets/css/style.css";
 
 class App extends Component {
   render() {

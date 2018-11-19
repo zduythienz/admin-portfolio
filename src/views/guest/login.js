@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import LoginForm from "../../components/login/loginForm";
+import BottomGuest from "../../components/login/bottom-guest";
 
 class Login extends Component {
   render() {
@@ -12,6 +13,7 @@ class Login extends Component {
             <LoginForm />
           </p>
         </div>
+        <BottomGuest />
       </div>
     );
   }

@@ -1,3 +1,12 @@
 .margin-top-s {
   margin-top: 8px;
 }
+.margin-s {
+  margin: 8px;
+}
+.margin-bottom-s {
+  margin-bottom: 8px;
+}
+.white {
+  color: white;
+}
