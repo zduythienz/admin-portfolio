@@ -1,20 +1,29 @@
 import React, { Component } from "react";
 
-import FontIcon from "material-ui/FontIcon";
-
 class LoginForm extends Component {
-  state = {};
+  _handleKeyPress = e => {
+    if (e.charCode === 13) {
+      console.log("====================================");
+      console.log("enter");
+      console.log("====================================");
+    }
+  };
   render() {
     return (
       <div>
-        <div>
-          <input className="input-OS margin-bottom-s" placeholder="Name" />
-          <br />
-          <div>
-            <input className="input-OS " placeholder="Enter Password" />
-          </div>
-          <br />
-        </div>
+        <input
+          type="text"
+          className="input-OS margin-bottom-s"
+          placeholder="Name"
+          onKeyPress={this._handleKeyPress}
+        />
+        <br />
+        <input
+          type="text"
+          className="input-OS "
+          placeholder="Enter Password"
+          onKeyPress={this._handleKeyPress}
+        />
       </div>
     );
   }

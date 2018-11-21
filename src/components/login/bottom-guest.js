@@ -3,10 +3,10 @@ import {
   BottomNavigation,
   BottomNavigationItem
 } from "material-ui/BottomNavigation";
-const recentsIcon = <i class="fa fa-user-o fa-2x" aria-hidden="true" />;
-const settingIcon = <i class="fa fa-whatsapp fa-2x" aria-hidden="true" />;
+const recentsIcon = <i className="fa fa-user-o fa-2x" aria-hidden="true" />;
+const settingIcon = <i className="fa fa-whatsapp fa-2x" aria-hidden="true" />;
 const forgotIcon = (
-  <i class="fa fa-question-circle-o fa-2x" aria-hidden="true" />
+  <i className="fa fa-question-circle-o fa-2x" aria-hidden="true" />
 );
 function BottomGuest() {
   return (

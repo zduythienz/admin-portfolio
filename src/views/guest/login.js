@@ -9,9 +9,9 @@ class Login extends Component {
         <div className="img-container" />
         <div className="blur" />
         <div className="body_guest">
-          <p className="center-ele">
+          <div className="center-ele">
             <LoginForm />
-          </p>
+          </div>
         </div>
         <BottomGuest />
       </div>

@@ -11,7 +11,7 @@ class App extends Component {
       <React.Fragment>
         <BrowserRouter>
           <MuiThemeProvider>
-            <Routes />
+              <Routes />
           </MuiThemeProvider>
         </BrowserRouter>
       </React.Fragment>
